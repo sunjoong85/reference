@@ -8,5 +8,8 @@ sudo ln -s /usr/local/bin/npm /usr/bin/npm
 sudo ln -s /usr/local/bin/node-waf /usr/bin/node-waf  
 ## run node background
 $ nohup node simple-server.js > output.log & [1] 23909
+## node server on 80 port
+https://gist.github.com/kentbrew/776580
+
 # Server
 [Free SSL with certbot](https://certbot.eff.org/lets-encrypt/osx-other)
